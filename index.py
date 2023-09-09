@@ -8,7 +8,7 @@ import pandas as pd
 st.image("school.png", use_column_width=True)
 
 # Page Title and Description
-st.title("America Elementary School Curriculam Generator")
+st.title("American Elementary School Curriculam Generator")
 st.markdown("Generate curriculum outlines for elementary school grade levels.you can also export curriculam by clicking on export curriculam button given below")
 
 # Sidebar for Additional Information
