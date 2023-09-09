@@ -5,7 +5,7 @@ import io
 import pandas as pd
 
 # Header Image
-st.image("School.png", use_column_width=True)
+st.image("school.png", use_column_width=True)
 
 # Page Title and Description
 st.title("America Elementary School Curriculam Generator")
