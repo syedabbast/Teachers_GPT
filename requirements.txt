@@ -2,3 +2,4 @@ openai
 langchain
 google-search-results
 streamlit
+pandas
