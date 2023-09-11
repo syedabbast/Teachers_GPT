@@ -5,9 +5,8 @@ from langchain.chains import SequentialChain
 import streamlit as st
 import os
 #from keyfile import openai_key
-os.environ["openai_key"] == st.secrets["openai_key"]
-os.environ['OPENAI_API_KEY'] = openai_key
-os.environ["openai_key"] == st.secrets["openai_key"]
+os.environ['openai_key'] = openai_key
+os.environ["OPENAI_API_KEY"] == st.secrets["openai_key"]
 llm = OpenAI(temperature=0.7)
 
 def generate_curriculum(level):
