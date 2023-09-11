@@ -6,7 +6,7 @@ import pandas as pd
 
 
 #Header Warning
-st.warning('I’ve initially launched the curriculum generator with limited features in response to the high query rates from end users. As soon as we establish an API model for end users, I will unlock all the additional features within the app. Thank you!', icon='⚠')
+st.warning('I’ve initially launched the curriculum generator with limited features in response to the high query rates from end users. As soon as we establish an API model for end users, I will unlock all the additional features within the app. Until 19th Sept 2023 I am allowing my personal API so no need to add your api on left corner for now. Thank you!', icon='⚠')
 # Header Image
 st.image("school.png", use_column_width=True)
 
