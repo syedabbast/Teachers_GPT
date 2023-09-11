@@ -5,7 +5,7 @@ from langchain.chains import SequentialChain
 import streamlit as st
 import os
 #from keyfile import openai_key
-os.environ['OPENAI_API_KEY'] = openai_key
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 llm = OpenAI(temperature=0.7)
 
