@@ -13,7 +13,7 @@ st.markdown("Generate curriculum outlines for elementary school grade levels.you
 
 # Sidebar for Additional Information
 with st.sidebar:
-    openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
+    openai_api_key = st.text_input("OpenAI API Key", key="openai_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
     "[View the source code](https://github.com/syedabbast/Teachers_GPT)"
 st.sidebar.title("Welcome, Teachers!")
@@ -47,7 +47,7 @@ st.sidebar.markdown("⚠️ **Warning:** As we are short on API balance, please 
 
 #Api Checking
 if openai_api_key:
-    openai.api_key = openai_api_key  # Set the OpenAI API key here
+    openai.api_key = openai_key  # Set the OpenAI API key here
 
 
 # Grade Level Selection Dropdown
