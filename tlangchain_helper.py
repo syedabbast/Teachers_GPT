@@ -4,8 +4,9 @@ from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 #from keyfile import openai_key
 import os
+os.environ["openai_key"] == st.secrets["openai_key"]
 os.environ['OPENAI_API_KEY'] = openai_key
-
+os.environ["openai_key"] == st.secrets["openai_key"]
 llm = OpenAI(temperature=0.7)
 
 def generate_curriculum(level):
