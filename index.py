@@ -4,6 +4,9 @@ import openai
 import io
 import pandas as pd
 
+
+#Header Warning
+st.warning('I allowed my api until September 19th, please be mindful while running queries. Thank you!', icon='⚠')
 # Header Image
 st.image("school.png", use_column_width=True)
 
