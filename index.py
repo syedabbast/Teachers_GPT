@@ -12,7 +12,10 @@ st.title("American Elementary School Curriculum Generator")
 st.markdown("Generate curriculum outlines for elementary school grade levels.you can also export curriculam by clicking on export curriculam button given below")
 
 # Sidebar for Additional Information
-
+with st.sidebar:
+    openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
+    "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+    "[View the source code](https://github.com/syedabbast/Teachers_GPT)"
 st.sidebar.title("Welcome, Teachers!")
 # Message to Teachers
 st.sidebar.markdown(
