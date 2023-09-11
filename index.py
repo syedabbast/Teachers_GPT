@@ -12,7 +12,7 @@ st.image("school.png", use_column_width=True)
 
 # Page Title and Description
 st.title("American Elementary School Curriculum Generator")
-st.markdown("Generate curriculum outlines for elementary school grade levels.you can also export curriculam by clicking on export curriculam button given below")
+st.markdown("Generate curriculum outlines for elementary school grade levels. You can also export curriculam by clicking on export curriculam button given below")
 
 # Sidebar for Additional Information
 with st.sidebar:
