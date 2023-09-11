@@ -76,7 +76,9 @@ if level:
             file_name=f"curriculum_{level}.csv",
             key="download_curriculum"
         )
-    
+    except openai.error.OpenAIError:
+            st.warning("Invalid OpenAI API Key. Please check your API key and try again.")
+   
     # Additional Information with Styling
    
 
@@ -89,5 +91,3 @@ if level:
         """,
         unsafe_allow_html=True
     )
-except openai.error.OpenAIError:
-            st.warning("Invalid OpenAI API Key. Please check your API key and try again.")
