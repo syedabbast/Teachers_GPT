@@ -6,7 +6,6 @@ import streamlit as st
 import os
 #from keyfile import openai_key
 os.environ['OPENAI_API_KEY'] = openai_key
-openai_key = os.environ.get("OPENAI_API_KEY")
 
 llm = OpenAI(temperature=0.7)
 
