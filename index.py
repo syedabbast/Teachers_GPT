@@ -6,7 +6,7 @@ import pandas as pd
 
 
 #Header Warning
-st.warning('I allowed GPT api until September 19th, please be mindful while running queries. Thank you!', icon='⚠')
+st.warning('I’ve initially launched the curriculum generator with limited features in response to the high query rates from end users. As soon as we establish an API model for end users, I will unlock all the additional features within the app. Thank you!', icon='⚠')
 # Header Image
 st.image("school.png", use_column_width=True)
 
