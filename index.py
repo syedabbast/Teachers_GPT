@@ -48,10 +48,6 @@ st.sidebar.markdown(
 st.sidebar.markdown("This is beta version, Feel free to write me and let me know what you want to generate next from chat GPT")
 st.sidebar.markdown("⚠️ **Warning:** As we are short on API balance, please try it one time. Thank you! I am workin to add end user api soon.")
 
-#Api Checking
-if openai_api_key:
-    openai.api_key = openai_key  # Set the OpenAI API key here
-
 
 # Grade Level Selection Dropdown
 level = st.selectbox("Select Grade Level", ["Kindergarten", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5"])
