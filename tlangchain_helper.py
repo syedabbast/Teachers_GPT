@@ -2,8 +2,9 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
-#from keyfile import openai_key
+import streamlit as st
 import os
+#from keyfile import openai_key
 os.environ["openai_key"] == st.secrets["openai_key"]
 os.environ['OPENAI_API_KEY'] = openai_key
 os.environ["openai_key"] == st.secrets["openai_key"]
