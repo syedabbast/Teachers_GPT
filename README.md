@@ -40,3 +40,9 @@ To set the OpenAI API key as an environment variable in Streamlit apps, do the f
 ```sh
 OPENAI_API_KEY='xxxxxxxxxx'
 ```
+<br><br><br><br><br>
+Follow me on Medium and Twitter! <br>
+**Syed Abbas** <br>
+**Email**tahasyed110@gmail.com<br>
+**Twitter:** https://twitter.com/SyedAbbasT<br>
+**Medium** https://medium.com/@SyedAbbasT<br>
