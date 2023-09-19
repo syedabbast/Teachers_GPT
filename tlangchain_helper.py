@@ -6,8 +6,8 @@ import streamlit as st
 import os
 #from keyfile import openai_key
 #OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-llm = OpenAI(temperature=0.7)
-#llm = OpenAI(temperature=0.7)
+llm = OpenAI(temperature=0.0)
+#llm = OpenAI(temperature=0.0)
 
 def generate_curriculum(level):
     # Chain 1: Level of Curriculum
