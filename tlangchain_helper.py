@@ -10,7 +10,7 @@ llm = OpenAI(temperature=0.7)
 #llm = OpenAI(temperature=0.7)
 
 def generate_curriculum(level):
-    # Chain 1: Restaurant Name
+    # Chain 1: Level of Curriculum
     prompt_template_curriculum = PromptTemplate(
         input_variables=['level'],
         template="Generate a curriculum outline for grade {level} in US standard elementary schools."
